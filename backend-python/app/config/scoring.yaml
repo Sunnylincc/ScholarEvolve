@@ -1,0 +1,20 @@
+weights:
+  semantic: 0.50
+  topic: 0.18
+  recency: 0.10
+  quality: 0.08
+  novelty: 0.08
+  exploration: 0.06
+  duplication: 0.03
+  overfit: 0.02
+
+diversity:
+  duplicate_threshold: 0.93
+  topic_concentration_target: 0.35
+  mmr_lambda: 0.75
+
+feedback:
+  click_delta: 0.8
+  bookmark_delta: 1.4
+  skip_delta: -0.3
+  half_life_days: 30
